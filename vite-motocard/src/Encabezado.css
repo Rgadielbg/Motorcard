@@ -9,3 +9,10 @@
     width: 180px;
     z-index: 1;
 }
+
+.logotipoDiv img {
+  width: 120px;   /* ajusta el ancho del logo */
+  height: auto;   /* mantiene la proporción original */
+  display: block; /* asegura que se comporte como bloque */
+  margin: 0 auto; /* centra la imagen horizontalmente */
+}

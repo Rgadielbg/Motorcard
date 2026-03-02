@@ -1,6 +1,6 @@
 import React from 'react'
 import './Encabezado.css'
-import Logo from './assets/logo.png'
+import Logo from './assets/logo.png';
 
 function Encabezado({ cambiarVista }) {
     return (
@@ -15,7 +15,7 @@ function Encabezado({ cambiarVista }) {
 function Logotipo() {
     return (
         <div className='logotipoDiv'>
-            <img src="{Logo}" alt="Logotipo" />
+            <img src={Logo} alt="Logotipo" />
 
         </div>
 
