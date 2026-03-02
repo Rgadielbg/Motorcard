@@ -1,11 +1,13 @@
-import React from 'react'
+
 import './Encabezado.css'
 import Logo from './assets/logo.png';
+import PropTypes from 'prop-types';
+
 
 function Encabezado({ cambiarVista }) {
     return (
         <div className='encabezadoDiv'>
-            <h1>MotorCard</h1>
+            <h1>MotoCard</h1>
             <Logotipo />
             <Menu cambiarVista={cambiarVista} />
         </div>
@@ -36,5 +38,7 @@ function Menu({ cambiarVista }) {
         </div>
     )
 }
-
+Menu.propTypes = {
+    cambiarVista: PropTypes.func.isRequired
+}
             export default Encabezado
