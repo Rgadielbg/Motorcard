@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   left: 180px;
+   background-color: rgb(5, 5, 71);
   right: 0;
   height: 120px;
   display: flex;
