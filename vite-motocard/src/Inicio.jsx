@@ -1,5 +1,6 @@
 import './Inicio.css'
 import Carro1 from './assets/carro1.png';
+import Ducati from './assets/ducati.png';
 
 
 
@@ -13,8 +14,7 @@ function Inicio() {
                 <h2>En MotorCard siempre lo mejor</h2>
             </div>
             <TarjetaComponent />
-             <TarjetaComponent />
-              <TarjetaComponent />
+            <TarjetaComponent2 />
 
 
             
@@ -29,7 +29,7 @@ function TarjetaComponent() {
     <>
    
     <div className='TarjetaDiv'>
-      <img src={Carro1} alt='Logotipo' />
+      <img src={Carro1} alt='Ferrari' />
       <h3>Ferrari 812 GTS: vuelve el V12 Spider</h3>
       <p>Sus 800 cv lo convierten en el descapotable de producción en serie con más potencia del mercado </p>
 
@@ -37,6 +37,16 @@ function TarjetaComponent() {
     </>
   );
 }
-
+function TarjetaComponent2() {
+  return(
+    <>
+    <div className='TarjetaDiv'>
+      <img   src={Ducati} alt='Ducati' />
+      <h3>Ducati Streetfighter V4: la naked más potente de la historia</h3>
+      <p>Con 208 cv, es la moto de serie más potente jamás fabricada por Ducati</p>
+      </div>
+    </>
+  )
+} 
 
 export default Inicio

@@ -1,4 +1,4 @@
-.inicioDiv{
+.inicioDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,33 +6,43 @@
     font-size: 24px;
     text-align: center;
     margin-top: 250px;
-}
-.TarjetaDiv{
-    width: 300px;
-    padding: 20px;
-    margin: 10px auto;
-    border-radius: 20px;
-   background-color: rgba(64, 58, 58);
-   
-    text-align: center;
-      transition: transform 0.6s ease, box-shadow 0.6s ease;
     
-     
-}
-.TarjetaDiv:hover {
-   transform: scale(1.1);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-
-
 }
 
-.TarjetaDiv img{
-    width: 100%;
+
+.TarjetaDiv {
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+ transition: transform 0.6s ease, box-shadow 0.6s ease;/*Este es el que me ayuda con el efecto pero no hace una animacion*/
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.TarjetaDiv:hover {/*Este  me ayuda a crear la aniacion y quese vea fluida y no de golpe */
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.TarjetaDiv img {
+    width: 300px;
     height: auto;
     border-radius: 20px;
 }
-.TarjetaDiv p{
-  
-    color: rgba(112, 128, 144);
+.TarjetaDiv img:hover {
+    transform: scale(1.1);/*Estas lineas para que cuando ponga el cursor arriba de la imagen tambien haga la anicacion de la card*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+.TarjetaDiv p {
+
+    color: rgb(0, 0, 0);
+}
+
+.TarjetaDiv h3 {
+    color: rgb(0, 0, 0);
+}
