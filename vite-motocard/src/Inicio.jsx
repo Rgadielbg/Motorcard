@@ -11,7 +11,7 @@ function Inicio() {
 
         <>
             <div className='inicioDiv'>
-                <h2>En MotorCard siempre lo mejor</h2>
+                <h2>En MotoCard siempre lo mejor</h2>
             </div>
             <TarjetaComponent />
             <TarjetaComponent2 />

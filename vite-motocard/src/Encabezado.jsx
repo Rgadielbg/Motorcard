@@ -2,7 +2,7 @@
 import './Encabezado.css'
 import Logo from './assets/logo.png';
 import PropTypes from 'prop-types';
-
+import Clima from './Clima';
 
 function Encabezado({ cambiarVista }) {
     return (
@@ -34,6 +34,7 @@ function Menu({ cambiarVista }) {
                 <li onClick={()=> cambiarVista("Sucursales")}>Sucursales</li>
                 
             </ul>
+            
 
         </div>
     )
